@@ -1,5 +1,6 @@
-(ns cjsauer.mass-transit-clj.core-test
-  (:require [cjsauer.mass-transit-clj.core :as sut]
+(ns cjsauer.mass-transit-test
+  (:require [cjsauer.mass-transit :as sut]
+            [clojure.spec.alpha :as s]
             #?(:clj [clojure.test :as t]
                :cljs [cljs.test :as t :include-macros true])))
 

@@ -1,4 +1,4 @@
-(ns cjsauer.mass-transit-clj.core
+(ns cjsauer.mass-transit
   (:require [clojure.set :refer [map-invert]]
             [clojure.spec.alpha :as s]))
 

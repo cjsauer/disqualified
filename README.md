@@ -1,4 +1,4 @@
-# mass-transit-clj
+# mass-transit
 
 Tiny Clojure(Script) library for conversion between qualified and unqualified
 keyword maps.
@@ -6,6 +6,9 @@ keyword maps.
 ### Usage
 
 ```Clojure
+(ns my-project.core
+  (:require [cjsauer.mass-transit :refer [qualify-map unqualify-map]]))
+
 ;; Define some specs for humans
 (s/def :human/name string?)
 (s/def :human/age number?)
