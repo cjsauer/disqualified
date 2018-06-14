@@ -5,7 +5,7 @@
 Tiny Clojure(Script) library for conversion between qualified and unqualified
 keyword maps.
 
-### Usage
+### Setup
 
 Leiningen/boot:
 
@@ -18,6 +18,8 @@ tools.deps:
 ```
 cjsauer/mass-transit {:mvn/version "0.1.0"}
 ```
+
+### Usage
 
 ```Clojure
 (ns my-project.core
