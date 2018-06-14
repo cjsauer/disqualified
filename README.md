@@ -1,9 +1,23 @@
 # mass-transit
 
+[![Clojars Project](https://img.shields.io/clojars/v/cjsauer/mass-transit.svg)](https://clojars.org/cjsauer/mass-transit)
+
 Tiny Clojure(Script) library for conversion between qualified and unqualified
 keyword maps.
 
 ### Usage
+
+Leiningen/boot:
+
+```
+[cjsauer/mass-transit "0.1.0"]
+```
+
+tools.deps:
+
+```
+cjsauer/mass-transit {:mvn/version "0.1.0"}
+```
 
 ```Clojure
 (ns my-project.core
