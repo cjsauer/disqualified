@@ -1,4 +1,4 @@
-(ns cjsauer.mass-transit
+(ns cjsauer.disqualified
   (:require [clojure.set :refer [map-invert]]
             [clojure.spec.alpha :as s]))
 

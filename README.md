@@ -1,6 +1,6 @@
-# mass-transit
+# disqualified
 
-[![Clojars Project](https://img.shields.io/clojars/v/cjsauer/mass-transit.svg)](https://clojars.org/cjsauer/mass-transit)
+[![Clojars Project](https://img.shields.io/clojars/v/cjsauer/disqualified.svg)](https://clojars.org/cjsauer/disqualified)
 
 Tiny Clojure(Script) library for conversion between qualified and unqualified
 keyword maps.
@@ -10,20 +10,20 @@ keyword maps.
 Leiningen/boot:
 
 ```
-[cjsauer/mass-transit "0.1.0"]
+[cjsauer/disqualified "0.1.0"]
 ```
 
 tools.deps:
 
 ```
-cjsauer/mass-transit {:mvn/version "0.1.0"}
+cjsauer/disqualified {:mvn/version "0.1.0"}
 ```
 
 ### Usage
 
 ```Clojure
 (ns my-project.core
-  (:require [cjsauer.mass-transit :refer [qualify-map unqualify-map]]))
+  (:require [cjsauer.disqualified :refer [qualify-map unqualify-map]]))
 
 ;; Define some specs for humans
 (s/def :human/name string?)
