@@ -10,7 +10,7 @@ keyword maps.
 (s/def :human/name string?)
 (s/def :human/age number?)
 (s/def ::human (s/keys :req [:human/name
-                              :human/age]))
+                             :human/age]))
 
 (def human {:human/age 42
             :human/name "Jeff"
