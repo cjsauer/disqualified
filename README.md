@@ -3,7 +3,7 @@
 [![Clojars Project](https://img.shields.io/clojars/v/cjsauer/disqualified.svg)](https://clojars.org/cjsauer/disqualified)
 
 Tiny Clojure(Script) library for conversion between qualified and unqualified
-keyword maps.
+keyword maps using clojure.spec definitions.
 
 ### Setup
 
