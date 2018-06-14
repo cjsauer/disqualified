@@ -27,7 +27,7 @@ keyword maps.
                 :other 12})
 
 ;; Qualify the keys of the map using the given spec as the guide.
-;; Notice how unknown keywords are ignored.
+;; Notice how keywords not in the spec are simply ignored.
 (qualify-map unq-human ::human)
 ;; {:human/age 42, :human/name "Brad", :other 12} 
 
