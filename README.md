@@ -35,7 +35,7 @@ cjsauer/disqualified {:mvn/version "0.1.0"}
             :human/name "Jeff"
             :other 12})
 
-;; Strip namespaces off all keywords
+;; Strip namespaces off all keyword keys
 (unqualify-map human)
 ;; {:age 42, :name "Jeff", :other 12}
 
