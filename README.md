@@ -64,4 +64,4 @@ optionality semantics (`:opt`) of `s/keys`. To work around this, you may want to
 create a separate spec definition specifcally for qualification (e.g. `(s/def
 ::human-qualifier (s/keys :req [...]))`). This conflation of key selection and
 key optionality will hopefully be fixed in "spec 2", as hinted by Rich Hickey in
-his talk [Maybe Not][https://www.youtube.com/watch?v=YR5WdGrpoug].
+his talk [Maybe Not](https://www.youtube.com/watch?v=YR5WdGrpoug).
