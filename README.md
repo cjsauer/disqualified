@@ -61,7 +61,15 @@ cjsauer/disqualified {:mvn/version "0.1.0"}
 `qualify-map` uses the keys specified inside of the `:req` vector given to
 `s/keys` to infer target keywords. This means that it can conflict with the
 optionality semantics (`:opt`) of `s/keys`. To work around this, you may want to
-create a separate spec definition specifcally for qualification (e.g. `(s/def
-::human-qualifier (s/keys :req [...]))`). This conflation of key selection and
-key optionality will hopefully be fixed in "spec 2", as hinted by Rich Hickey in
-his talk [Maybe Not](https://www.youtube.com/watch?v=YR5WdGrpoug).
+create a separate spec definition specifcally for qualification, for example:
+
+```clojure
+;; Standard spec
+(s/def ::human (s/keys :req [...] :opt [...]))
+
+;; Spec specifically for qualifying keys
+(s/def ::human-qualifier (s/keys :req [...]))
+```
+
+This conflation of key selection and key optionality will hopefully be fixed in
+"spec 2", as hinted by Rich Hickey in his talk [Maybe Not](https://www.youtube.com/watch?v=YR5WdGrpoug).
